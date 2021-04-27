@@ -2,12 +2,13 @@
 
 body {
   background-color: green;
-  margin: 1rem;
+  padding: 1rem;
 }
 
 section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
