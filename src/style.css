@@ -1,1 +1,38 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  margin: 1rem;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  font-size: 3rem;
+  width: 9rem;
+  margin: 1rem;
+  padding: 0.1rem;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
+
+.align-start {
+  align-self: flex-start;
+}
+
+.align-end {
+  align-self: flex-end;
+}
