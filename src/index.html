@@ -12,18 +12,21 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
+
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+      <form action="">
+        <label for="numberOfCards">How many cards do you want?</label>
+        <input
+          type="number"
+          name="numberOfCards"
+          id="numberOfCards"
+          min="1"
+          max="20"
+        />
+        <button id="drawCards">Get the cards!</button>
+      </form>
+      <section id="drawnCards"></section>
     </div>
   </body>
 </html>
